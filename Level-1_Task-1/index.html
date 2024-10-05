@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FONT AWESOME ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <!--==================== STYLE SWITCHER ====================-->
+    <div class="style__switcher"></div>
+
+    <!--==================== HEADER ====================-->
+    <header class="header">
+      <div class="nav container">
+        <a href="index.html" class="nav__logo">Safal Biswas</a>
+
+        <input type="checkbox" id="nav__toggler" />
+        <label for="nav__toggler" class="nav__toggle">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active__link">Home</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#services" class="nav__link">Services</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#skills" class="nav__link">Skills</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#portfolio" class="nav__link">Portfolio</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <div class="home__content">
+            <span class="home__small">Hello</span>
+            <h1 class="home__title">
+              <span>I'm</span> Safal Biswas <br />
+              a <span>Web Developer</span>
+            </h1>
+            <p class="home__description">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis
+              magnam deleniti amet impedit nemo placeat sapiente quasi rem
+              ratione rerum facere dolore, repellendus molestiae inventore
+              dolores quibusdam totam, quod dolorum.
+            </p>
+
+            <div class="home__btns">
+              <a href="#contact" class="btn">Hire Me</a>
+              <a href="#portfolio" class="btn btn__transparent">Portfolio</a>
+            </div>
+          </div>
+
+          <div class="home__img-wrapper">
+            <img src="assets/img/profile.PNG" alt="" class="home__img" />
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about__img-wrapper">
+            <img src="assets/img/about.JPG" class="about__img" />
+            <img src="assets/img/about.JPG" class="about__img" />
+            <img src="assets/img/about.JPG" class="about__img" />
+            <img src="assets/img/about.JPG" class="about__img" />
+          </div>
+          <div class="about__content">
+            <h2 class="section__title" data-title="Who am I?">
+              I'm Safal Kumar Biswas, a Programmer and Web Developer
+            </h2>
+
+            <p class="about__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et iste
+              beatae hic inventore possimus. Beatae hic aliquid natus aperiam
+              ratione consectetur accusantium consequatur, commodi reiciendis
+              voluptatem soluta fugiat, sint maxime ab fugit quo. Ducimus esse,
+              dignissimos minus voluptates repellat vero, iure nulla sit
+              nesciunt unde voluptatum quo non deleniti provident!
+            </p>
+
+            <ul class="about__data grid">
+              <li class="data__item">
+                <h3 class="data__title">Name:</h3>
+                <span class="data__description">Safal Kumar Biswas</span>
+              </li>
+
+              <li class="data__item">
+                <h3 class="data__title">Age:</h3>
+                <span class="data__description">25 Years</span>
+              </li>
+
+              <li class="data__item">
+                <h3 class="data__title">From:</h3>
+                <span class="data__description">Bangladesh</span>
+              </li>
+
+              <li class="data__item">
+                <h3 class="data__title">Email:</h3>
+                <span class="data__description about__link"
+                  >safalbiswas005@gmail.com</span
+                >
+              </li>
+            </ul>
+
+            <div class="about__bottom">
+              <a
+                href="assets/pdf/Safal_Biswas_Resume.pdf"
+                class="btn about__btn"
+                >Download CV</a
+              >
+
+              <div class="about__social-links">
+                <a href="" class="about__social-link">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="" class="about__social-link">
+                  <i class="fa-brands fa-square-facebook"></i>
+                </a>
+
+                <a href="" class="about__social-link">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== QUALIFICATION ====================-->
+      <section class="qualification" id="qualification"></section>
+
+      <!--==================== SERVICES ====================-->
+      <section class="services section" id="services">
+        <h2 class="section__title title-center" data-title="services">
+          What I do for you
+        </h2>
+
+        <div class="services__container container grid">
+          <div class="services__item">
+            <i class="fa-solid fa-pen-to-square services__icon"></i>
+
+            <h3 class="services__title">Problem Solving</h3>
+            <p class="services__description">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam,
+              quae. Non ipsum similique expedita nostrum.!
+            </p>
+
+            <span class="services__no">01</span>
+          </div>
+
+          <div class="services__item">
+            <i class="fa-solid fa-pen-to-square services__icon"></i>
+
+            <h3 class="services__title">Web Development</h3>
+            <p class="services__description">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam,
+              quae. Non ipsum similique expedita nostrum.!
+            </p>
+
+            <span class="services__no">02</span>
+          </div>
+
+          <div class="services__item">
+            <i class="fa-solid fa-pen-to-square services__icon"></i>
+
+            <h3 class="services__title">Arduino Project Building</h3>
+            <p class="services__description">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam,
+              quae. Non ipsum similique expedita nostrum.!
+            </p>
+
+            <span class="services__no">03</span>
+          </div>
+
+          <div class="services__item">
+            <i class="fa-solid fa-pen-to-square services__icon"></i>
+
+            <h3 class="services__title">Arduino Project Building</h3>
+            <p class="services__description">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam,
+              quae. Non ipsum similique expedita nostrum.!
+            </p>
+
+            <span class="services__no">04</span>
+          </div>
+
+          <div class="services__item">
+            <i class="fa-solid fa-pen-to-square services__icon"></i>
+
+            <h3 class="services__title">Arduino Project Building</h3>
+            <p class="services__description">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam,
+              quae. Non ipsum similique expedita nostrum.!
+            </p>
+
+            <span class="services__no">05</span>
+          </div>
+
+          <div class="services__item">
+            <i class="fa-solid fa-pen-to-square services__icon"></i>
+
+            <h3 class="services__title">Arduino Project Building</h3>
+            <p class="services__description">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam,
+              quae. Non ipsum similique expedita nostrum.!
+            </p>
+
+            <span class="services__no">06</span>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SKILLS ====================-->
+      <section class="skills section" id="skills">
+        <h2 class="section__title title-center" data-title="My Talent">
+          Professional Skills
+        </h2>
+
+        <div class="skills__container container grid">
+          <div class="skill__item">
+            <div class="skill__title">
+              <h3 class="skill_name">C/C++</h3>
+              <span class="skill__no">85 %</span>
+            </div>
+            <p class="skill__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
+              iure? Autem, error? Possimus ea error perspiciatis repudiandae
+              voluptate nam? Culpa?
+            </p>
+
+            <div class="skill__bar">
+              <div class="skill__percentage" style="width: 85%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill__item">
+            <div class="skill__title">
+              <h3 class="skill_name">Python</h3>
+              <span class="skill__no">80 %</span>
+            </div>
+            <p class="skill__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
+              iure? Autem, error? Possimus ea error perspiciatis repudiandae
+              voluptate nam? Culpa?
+            </p>
+
+            <div class="skill__bar">
+              <div class="skill__percentage" style="width: 80%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill__item">
+            <div class="skill__title">
+              <h3 class="skill_name">JavaScript</h3>
+              <span class="skill__no">85 %</span>
+            </div>
+            <p class="skill__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
+              iure? Autem, error? Possimus ea error perspiciatis repudiandae
+              voluptate nam? Culpa?
+            </p>
+
+            <div class="skill__bar">
+              <div class="skill__percentage" style="width: 85%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill__item">
+            <div class="skill__title">
+              <h3 class="skill_name">Java</h3>
+              <span class="skill__no">75 %</span>
+            </div>
+            <p class="skill__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
+              iure? Autem, error? Possimus ea error perspiciatis repudiandae
+              voluptate nam? Culpa?
+            </p>
+
+            <div class="skill__bar">
+              <div class="skill__percentage" style="width: 75%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill__item">
+            <div class="skill__title">
+              <h3 class="skill_name">Arduino</h3>
+              <span class="skill__no">90 %</span>
+            </div>
+            <p class="skill__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
+              iure? Autem, error? Possimus ea error perspiciatis repudiandae
+              voluptate nam? Culpa?
+            </p>
+
+            <div class="skill__bar">
+              <div class="skill__percentage" style="width: 90%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill__item">
+            <div class="skill__title">
+              <h3 class="skill_name">Adobe Illustrator</h3>
+              <span class="skill__no">95 %</span>
+            </div>
+            <p class="skill__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
+              iure? Autem, error? Possimus ea error perspiciatis repudiandae
+              voluptate nam? Culpa?
+            </p>
+
+            <div class="skill__bar">
+              <div class="skill__percentage" style="width: 95%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== PORTFOLIO ====================-->
+      <section class="works section" id="portfolio">
+        <h2 class="section__title title-center" data-title="my portfolio">
+          Recent Works
+        </h2>
+
+        <div class="work__container container grid">
+          <div class="work__card">
+            <img src="assets/img/project-img-1.jpg" class="work__img" />
+            <div class="work__details">
+              <h3 class="work__title">Web Design</h3>
+              <span class="work__description">Lorem ipsum dolor sit amet.</span>
+            </div>
+          </div>
+
+          <div class="work__card">
+            <img src="assets/img/project-img-2.jpg" class="work__img" />
+            <div class="work__details">
+              <h3 class="work__title">Android App</h3>
+              <span class="work__description">Lorem ipsum dolor sit amet.</span>
+            </div>
+          </div>
+
+          <div class="work__card">
+            <img src="assets/img/project-img-3.jpg" class="work__img" />
+            <div class="work__details">
+              <h3 class="work__title">Illustration</h3>
+              <span class="work__description">Lorem ipsum dolor sit amet.</span>
+            </div>
+          </div>
+
+          <div class="work__card">
+            <img src="assets/img/project-img-4.jpg" class="work__img" />
+            <div class="work__details">
+              <h3 class="work__title">Web Design</h3>
+              <span class="work__description">Lorem ipsum dolor sit amet.</span>
+            </div>
+          </div>
+
+          <div class="work__card">
+            <img src="assets/img/project-img-5.jpg" class="work__img" />
+            <div class="work__details">
+              <h3 class="work__title">Web Design</h3>
+              <span class="work__description">Lorem ipsum dolor sit amet.</span>
+            </div>
+          </div>
+
+          <div class="work__card">
+            <img src="assets/img/project-img-6.jpg" class="work__img" />
+            <div class="work__details">
+              <h3 class="work__title">Web Design</h3>
+              <span class="work__description">Lorem ipsum dolor sit amet.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== TESTIMONIALS ====================-->
+      <section class="testimonials"></section>
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title title-center" data-title="get in touch">
+          Contact Me
+        </h2>
+
+        <div class="contact__container container grid">
+          <div class="contact__details">
+            <div class="contact__item">
+              <i class="fa-solid fa-phone contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Phone</h3>
+                <span class="cotact__data">+880 1781-036301</span>
+              </div>
+            </div>
+
+            <div class="contact__item">
+              <i class="fa-solid fa-envelope contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Email</h3>
+                <span class="cotact__data">safalbiswas005@gmail.com</span>
+              </div>
+            </div>
+
+            <div class="contact__item">
+              <i class="fa-solid fa-location-dot contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Address</h3>
+                <span class="cotact__data">Rangpur, Bangladesh</span>
+              </div>
+            </div>
+          </div>
+
+          <form action="" class="contact__form">
+            <div class="form__group">
+              <div class="form__name-email">
+                <div class="form__input">
+                  <input
+                    type="text"
+                    placeholder="Name"
+                    class="input__control"
+                  />
+                </div>
+
+                <div class="form__input">
+                  <input
+                    type="email"
+                    placeholder="Email"
+                    class="input__control"
+                  />
+                </div>
+              </div>
+
+              <div class="form__input">
+                <input
+                  type="text"
+                  placeholder="Subject"
+                  class="input__control"
+                />
+              </div>
+
+              <div class="form__input">
+                <textarea
+                  name=""
+                  id=""
+                  placeholder="Message"
+                  cols="30"
+                  rows="10"
+                  class="input__control textarea"
+                ></textarea>
+              </div>
+            </div>
+            <button class="btn contact__btn">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container container">
+        <p class="footer__copyright">
+          &copy; 2024 Safal Biswas. All Right Reserved
+        </p>
+
+        <div class="footer__social-links">
+          <a href="" class="footer__social-link">
+            <i class="fa-brands fa-github"></i>
+          </a>
+
+          <a href="" class="footer__social-link">
+            <i class="fa-brands fa-square-facebook"></i>
+          </a>
+
+          <a href="" class="footer__social-link">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
